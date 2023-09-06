@@ -1,3 +1,15 @@
+const sendEmail = document.querySelector("#emailsender");
+
+// This will open the user's default email client and autofill the informations such as From and To options 
+sendEmail.addEventListener("click", function (event) {
+    event.preventDefault();
+    const emailAddress = 'dotqresearch@gmail.com';
+    const subject = 'Write your email here...';
+    const mailingto = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
+
+    window.location.href = mailingto;
+});
+
 window.addEventListener('DOMContentLoaded', event => {
 
     var navbarShrink = function () {
