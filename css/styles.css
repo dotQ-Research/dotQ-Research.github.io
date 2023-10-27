@@ -23,7 +23,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #64a19d;
+  --bs-primary: #23ad2f;
   --bs-secondary: #7464a1;
   --bs-success: #67c29c;
   --bs-info: #1cabc4;
@@ -122,6 +122,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
+  font-family: 'Rajdhani';
   font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
@@ -144,6 +145,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+  font-family: 'Rajdhani';
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -8226,6 +8228,7 @@ textarea.form-control-lg {
 .text-green {
   --bs-text-opacity: 1;
   color: rgba(2, 214, 84, 255) !important;
+  font-family: 'Rajdhani';
 }
 
 .text-lightest-green {
@@ -8251,6 +8254,11 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-primary-50 {
+  --bs-text-opacity: 1;
+  color: rgb(35,173,47,0.5)
 }
 
 .text-reset {
@@ -11072,7 +11080,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background-image: url("../assets/img/dark-moon-bg-masthead.png");
+  background-image: url("../assets/img/cutoff-moon-2048727_1920.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11121,6 +11129,7 @@ body {
 }
 .about-section p {
   margin-bottom: 5rem;
+  font-family: 'Rajdhani';
 }
 
 .projects-section {
@@ -11132,7 +11141,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #23ad2f;
   }
 }
 .projects-section .project-text {
@@ -11169,7 +11178,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #23ad2f;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11179,7 +11188,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #64a19d;
+  border-color: #23ad2f;
   border-width: 0.25rem;
   width: 3rem;
 }
